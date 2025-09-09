@@ -126,10 +126,3 @@ Nilai balance saat ini disimpan dalam variabel sementara amountToRefund.
 balance direset kembali menjadi 0.
 
 Jumlah uang yang dikembalikan (amountToRefund) dikirim sebagai nilai balik dari method ini.
-
-Cara Menjalankan di BlueJ
-Buka proyek di BlueJ dan kompilasi class TicketMachine.
-
-Klik kanan pada class, pilih new TicketMachine(int cost) dan masukkan harga tiket (misal: 500).
-
-Sebuah objek akan muncul di bagian bawah. Klik kanan pada objek tersebut untuk memanggil method-method yang ada dan menguji fungsionalitasnya.
