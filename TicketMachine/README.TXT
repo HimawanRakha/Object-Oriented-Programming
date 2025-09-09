@@ -1,4 +1,4 @@
-# 🎟️ Proyek Mesin Tiket (Ticket Machine) - Java & BlueJ
+# Proyek Mesin Tiket (Ticket Machine) - Java & BlueJ
 
 Proyek ini adalah implementasi sederhana dari sebuah **mesin tiket (Ticket Machine)** menggunakan bahasa pemrograman **Java** dan dirancang untuk dijalankan pada IDE **BlueJ**.  
 
@@ -6,7 +6,7 @@ Program ini mensimulasikan fungsionalitas dasar mesin tiket, di mana pengguna da
 
 ---
 
-## 🎯 Tujuan Proyek
+## Tujuan Proyek
 Tujuan dari proyek ini adalah untuk memahami konsep dasar **Pemrograman Berorientasi Objek (OOP)** seperti:
 - Class  
 - Object  
@@ -16,7 +16,7 @@ Tujuan dari proyek ini adalah untuk memahami konsep dasar **Pemrograman Berorien
 
 ---
 
-## ✨ Fitur Utama
+## Fitur Utama
 - **Harga Fleksibel**: Harga tiket dapat ditentukan saat mesin (objek) pertama kali dibuat.  
 - **Validasi Input**: Mesin hanya menerima nominal uang yang positif.  
 - **Transaksi Aman**: Tiket hanya akan dicetak jika saldo yang dimasukkan pengguna mencukupi.  
@@ -25,7 +25,7 @@ Tujuan dari proyek ini adalah untuk memahami konsep dasar **Pemrograman Berorien
 
 ---
 
-## 📝 Penjelasan Kode: `TicketMachine.java`
+## Penjelasan Kode: `TicketMachine.java`
 
 ### 1. Atribut (Fields)
 Atribut menyimpan data atau state dari objek.  
