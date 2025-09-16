@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=NumberDisplay
+comment0.text=\r\n\ The\ NumberDisplay\ class\ represents\ a\ digital\ number\r\n\ display\ that\ can\ hold\ values\ from\ zero\ to\ a\ given\ limit.\r\n\ The\ limit\ can\ be\ specified\ when\ creating\ the\ display.\ The\r\n\ values\ range\ from\ zero\ (inclusive)\ to\ limit-1.\ If\ used,\ for\r\n\ example,\ for\ the\ seconds\ on\ a\ digital\ clock,\ the\ limit\r\n\ would\ be\ 60,\ resulting\ in\ display\ values\ from\ 0\ to\ 59.\r\n\ When\ incremented,\ the\ display\ automatically\ rolls\ over\ to\r\n\ zero\ when\ reaching\ the\ limit.\r\n\r\n\ @author\ Michael\ K\u00F6lling\ and\ David\ J.\ Barnes\r\n\ @version\ 2011.07.31\r\n
+comment1.params=rollOverLimit
+comment1.target=NumberDisplay(int)
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ NumberDisplay.\r\n\ Set\ the\ limit\ at\ which\ the\ display\ rolls\ over.\r\n
+comment2.params=
+comment2.target=int\ getValue()
+comment2.text=\r\n\ Return\ the\ current\ value.\r\n
+comment3.params=replacementValue
+comment3.target=void\ setValue(int)
+comment3.text=\r\n\ Set\ the\ value\ of\ the\ display\ to\ the\ new\ specified\r\n\ value.\ If\ the\ new\ value\ is\ less\ than\ zero\ or\ over\ the\r\n\ limit,\ do\ nothing.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getDisplayValue()
+comment4.text=\r\n\ Return\ the\ display\ value\ (that\ is,\ the\ current\ value\r\n\ as\ a\ two-digit\ String.\ If\ the\ value\ is\ less\ than\ ten,\r\n\ it\ will\ be\ padded\ with\ a\ leading\ zero).\r\n
+comment5.params=
+comment5.target=void\ increment()
+comment5.text=\r\n\ Increment\ the\ display\ value\ by\ one,\ rolling\ over\ to\ zero\ if\r\n\ the\ limit\ is\ reached.\r\n
+numComments=6

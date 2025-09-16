@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ClockGUI
+comment0.text=\r\n\ Kelas\ ClockGUI\ menyediakan\ antarmuka\ grafis\ (GUI)\ untuk\ menampilkan\ jam,\r\n\ tanggal,\ dan\ suhu.\r\n\r\n\ @author\ (Your\ Name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=
+comment1.target=ClockGUI()
+comment2.params=
+comment2.target=void\ startClock()
+comment3.params=
+comment3.target=void\ updateTime()
+comment3.text=\r\n\ Memperbarui\ semua\ informasi\ (jam,\ tanggal,\ suhu)\ setiap\ detik.\r\n
+comment4.params=args
+comment4.target=void\ main(java.lang.String[])
+numComments=5
