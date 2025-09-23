@@ -1,41 +1,32 @@
 import java.util.ArrayList;
 
-/**
- * Class Mahasiswa merepresentasikan seorang mahasiswa.
- */
 public class Mahasiswa {
-    // Atribut atau variabel
+
     private String nama;
     private String nrp;
     private String jurusan;
     private ArrayList<MataKuliah> daftarMataKuliah;
 
     /**
-     * Constructor untuk membuat objek Mahasiswa baru.
-     * @param nama Nama lengkap mahasiswa.
-     * @param nrp Nomor Induk Mahasiswa.
-     * @param jurusan Program studi.
+     * @param nama 
+     * @param nrp 
+     * @param jurusan ]
      */
     public Mahasiswa(String nama, String nrp, String jurusan) {
         this.nama = nama;
         this.nrp = nrp;
         this.jurusan = jurusan;
-        this.daftarMataKuliah = new ArrayList<>(); // Inisialisasi ArrayList kosong
+        this.daftarMataKuliah = new ArrayList<>(); 
     }
 
     /**
-     * Menambahkan mata kuliah yang diambil oleh mahasiswa.
-     * Metode ini juga secara otomatis mendaftarkan mahasiswa ini ke kelas MataKuliah.
-     * @param mk Objek MataKuliah yang diambil.
+     * @param mk 
      */
     public void tambahMataKuliah(MataKuliah mk) {
-        this.daftarMataKuliah.add(mk); // Tambahkan MK ke daftar milik mahasiswa
-        mk.tambahMahasiswa(this);    // Daftarkan mahasiswa ini ke MK tersebut
+        this.daftarMataKuliah.add(mk); 
+        mk.tambahMahasiswa(this);
     }
 
-    /**
-     * Menampilkan Kartu Rencana Studi (KRS) mahasiswa.
-     */
     public void lihatKRS() {
         System.out.println("===== KARTU RENCANA STUDI (KRS) =====");
         System.out.println("nrp: " + this.nrp);
@@ -54,8 +45,7 @@ public class Mahasiswa {
         }
         System.out.println("=======================================");
     }
-    
-    // Metode getter sederhana
+
     public String getNama() {
         return this.nama;
     }

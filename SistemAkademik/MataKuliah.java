@@ -1,10 +1,7 @@
 import java.util.ArrayList;
 
-/**
- * Class MataKuliah merepresentasikan sebuah mata kuliah yang ditawarkan.
- */
 public class MataKuliah {
-    // Atribut atau variabel
+   
     private String kodeMK;
     private String namaMK;
     private int sks;
@@ -12,31 +9,26 @@ public class MataKuliah {
     private ArrayList<Mahasiswa> daftarMahasiswa;
 
     /**
-     * Constructor untuk membuat objek MataKuliah baru.
-     * @param kodeMK Kode unik mata kuliah.
-     * @param namaMK Nama lengkap mata kuliah.
-     * @param sks Jumlah SKS.
-     * @param dosen Objek Dosen yang mengampu mata kuliah ini.
+     * @param kodeMK 
+     * @param namaMK
+     * @param sks
+     * @param dosen 
      */
     public MataKuliah(String kodeMK, String namaMK, int sks, Dosen dosen) {
         this.kodeMK = kodeMK;
         this.namaMK = namaMK;
         this.sks = sks;
         this.dosenPengampu = dosen;
-        this.daftarMahasiswa = new ArrayList<>(); // Inisialisasi ArrayList kosong
+        this.daftarMahasiswa = new ArrayList<>(); 
     }
 
     /**
-     * Mendaftarkan seorang mahasiswa ke dalam mata kuliah ini.
-     * @param mahasiswa Objek Mahasiswa yang akan ditambahkan.
+     * @param mahasiswa
      */
     public void tambahMahasiswa(Mahasiswa mahasiswa) {
         this.daftarMahasiswa.add(mahasiswa);
     }
 
-    /**
-     * Menampilkan informasi detail tentang mata kuliah, termasuk dosen dan daftar mahasiswanya.
-     */
     public void info() {
         System.out.println("========================================");
         System.out.println("Kode Mata Kuliah: " + this.kodeMK);
@@ -55,7 +47,6 @@ public class MataKuliah {
         System.out.println("========================================");
     }
 
-    // Metode getter sederhana jika diperlukan
     public String getNamaMK() {
         return this.namaMK;
     }
