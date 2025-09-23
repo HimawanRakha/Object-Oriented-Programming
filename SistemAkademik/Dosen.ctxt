@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Dosen
+comment0.text=\r\n\ Class\ Dosen\ merepresentasikan\ seorang\ dosen\ pengajar.\r\n
+comment1.params=nama\ nip\ bidangKeahlian
+comment1.target=Dosen(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ untuk\ membuat\ objek\ Dosen\ baru.\r\n\ @param\ nama\ Nama\ lengkap\ dosen.\r\n\ @param\ nip\ Nomor\ Induk\ Pegawai.\r\n\ @param\ bidangKeahlian\ Bidang\ keahlian\ atau\ spesialisasi\ dosen.\r\n
+comment2.params=
+comment2.target=java.lang.String\ getNama()
+comment2.text=\r\n\ Mengembalikan\ nama\ dosen.\r\n\ @return\ String\ nama\ dosen.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getNip()
+comment3.text=\r\n\ Mengembalikan\ NIP\ dosen.\r\n\ @return\ String\ NIP\ dosen.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getInfo()
+comment4.text=\r\n\ Mengembalikan\ informasi\ lengkap\ tentang\ dosen.\r\n\ @return\ String\ informasi\ dosen.\r\n
+numComments=5

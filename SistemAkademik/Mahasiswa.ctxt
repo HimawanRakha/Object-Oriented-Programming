@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=Mahasiswa
+comment0.text=\r\n\ Class\ Mahasiswa\ merepresentasikan\ seorang\ mahasiswa.\r\n
+comment1.params=nama\ nrp\ jurusan
+comment1.target=Mahasiswa(java.lang.String,\ java.lang.String,\ java.lang.String)
+comment1.text=\r\n\ Constructor\ untuk\ membuat\ objek\ Mahasiswa\ baru.\r\n\ @param\ nama\ Nama\ lengkap\ mahasiswa.\r\n\ @param\ nrp\ Nomor\ Induk\ Mahasiswa.\r\n\ @param\ jurusan\ Program\ studi.\r\n
+comment2.params=mk
+comment2.target=void\ tambahMataKuliah(MataKuliah)
+comment2.text=\r\n\ Menambahkan\ mata\ kuliah\ yang\ diambil\ oleh\ mahasiswa.\r\n\ Metode\ ini\ juga\ secara\ otomatis\ mendaftarkan\ mahasiswa\ ini\ ke\ kelas\ MataKuliah.\r\n\ @param\ mk\ Objek\ MataKuliah\ yang\ diambil.\r\n
+comment3.params=
+comment3.target=void\ lihatKRS()
+comment3.text=\r\n\ Menampilkan\ Kartu\ Rencana\ Studi\ (KRS)\ mahasiswa.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getNama()
+comment5.params=
+comment5.target=java.lang.String\ getnrp()
+numComments=6

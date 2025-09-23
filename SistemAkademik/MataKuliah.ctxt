@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=MataKuliah
+comment0.text=\r\n\ Class\ MataKuliah\ merepresentasikan\ sebuah\ mata\ kuliah\ yang\ ditawarkan.\r\n
+comment1.params=kodeMK\ namaMK\ sks\ dosen
+comment1.target=MataKuliah(java.lang.String,\ java.lang.String,\ int,\ Dosen)
+comment1.text=\r\n\ Constructor\ untuk\ membuat\ objek\ MataKuliah\ baru.\r\n\ @param\ kodeMK\ Kode\ unik\ mata\ kuliah.\r\n\ @param\ namaMK\ Nama\ lengkap\ mata\ kuliah.\r\n\ @param\ sks\ Jumlah\ SKS.\r\n\ @param\ dosen\ Objek\ Dosen\ yang\ mengampu\ mata\ kuliah\ ini.\r\n
+comment2.params=mahasiswa
+comment2.target=void\ tambahMahasiswa(Mahasiswa)
+comment2.text=\r\n\ Mendaftarkan\ seorang\ mahasiswa\ ke\ dalam\ mata\ kuliah\ ini.\r\n\ @param\ mahasiswa\ Objek\ Mahasiswa\ yang\ akan\ ditambahkan.\r\n
+comment3.params=
+comment3.target=void\ info()
+comment3.text=\r\n\ Menampilkan\ informasi\ detail\ tentang\ mata\ kuliah,\ termasuk\ dosen\ dan\ daftar\ mahasiswanya.\r\n
+comment4.params=
+comment4.target=java.lang.String\ getNamaMK()
+numComments=5
