@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=InputReader
+comment1.params=
+comment1.target=InputReader()
+comment2.params=
+comment2.target=java.util.HashSet\ getInput()
+comment2.text=\r\n\ Membaca\ input\ dari\ terminal\ dan\ mengembalikan\ set\ kata.\r\n\ Juga\ menyimpan\ input\ asli\ dalam\ variabel\ lastInputLine.\r\n
+comment3.params=
+comment3.target=java.lang.String\ getLastInputLine()
+numComments=4

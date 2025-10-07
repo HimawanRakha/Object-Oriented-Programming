@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Responder
+comment1.params=
+comment1.target=Responder()
+comment2.params=words\ fullInput
+comment2.target=java.lang.String\ generateResponse(java.util.HashSet,\ java.lang.String)
+comment3.params=
+comment3.target=void\ fillResponseMap()
+comment4.params=
+comment4.target=void\ fillDefaultResponses()
+comment5.params=
+comment5.target=java.lang.String\ pickDefaultResponse()
+numComments=6
