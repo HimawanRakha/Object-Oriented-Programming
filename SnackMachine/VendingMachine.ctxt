@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=VendingMachine
+comment1.params=
+comment1.target=VendingMachine()
+comment2.params=produk
+comment2.target=void\ tambahProduk(Produk)
+comment3.params=
+comment3.target=void\ tampilkanMenu()
+comment4.params=nomorProduk\ jumlahUang
+comment4.target=void\ prosesTransaksi(int,\ int)
+comment5.params=nomorProduk\ jumlah
+comment5.target=void\ isiUlangStok(int,\ int)
+comment6.params=produk
+comment6.target=void\ catatLog(Produk)
+comment7.params=
+comment7.target=void\ tampilkanLogTransaksi()
+numComments=8

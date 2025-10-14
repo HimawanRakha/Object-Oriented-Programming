@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=AplikasiVendingMachine
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=mesin\ scanner
+comment2.target=void\ menuPembelian(VendingMachine,\ java.util.Scanner)
+comment3.params=mesin\ scanner
+comment3.target=void\ menuAdmin(VendingMachine,\ java.util.Scanner)
+numComments=4
